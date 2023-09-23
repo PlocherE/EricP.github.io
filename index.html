@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+
+    <script>
+      function changeImage() {
+        let displayImage = document.getElementById('image');
+        displayImage.src = "happyPika.jpg";
+        // Credit for this image goes to Pixiv user Higa //
+        // https://www.pixiv.net/en/artworks/90277462    //
+      }
+    </script>
+  </head>
+
+  <body>
+
+    <header>
+      <div style = "text-align: center;">
+        <h1>
+          Sad Pikachu
+        </h1>
+      </div>
+    </header>
+
+    <main></main>
+      <div style = "text-align: center;">
+        <a href="index.html" target="_blank">
+          <p><strong>Pikachu did not deserve this.</strong></p>
+        </a>
+        <img src="sadPika.gif" alt="Sad Pikachu gif" class="responsive" id="image">
+        <!-- Cridit for this image go to Pintrest user RAWWW 
+          https://www.pinterest.com/pin/615515474065732746/   -->
+      </div>
+
+      <div style="text-align: center;">
+        <button onclick="changeImage()"> Click here to cheer up Pikachu</button>
+      </div>
+    </main>
+  </body>
+</html>
